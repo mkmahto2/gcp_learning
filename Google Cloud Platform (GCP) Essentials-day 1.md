@@ -460,13 +460,6 @@ gcloud services quotas list \--service=compute.googleapis.com
 
 ## 
 
-## 
-
-## 
-
-## 
-
-## 
 
 ## **📘 Summary Table**
 
