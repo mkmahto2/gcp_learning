@@ -3,23 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GCP Learning</title>
-    <style>
-        html, body {
-            margin: 0;
-            padding: 0;
-            height: 100%;
-            width: 100%;
-        }
-        iframe {
-            border: none;
-            width: 100%;
-            height: 100%;
-        }
-    </style>
+    <title>Learning portal </title>
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-     <iframe src="https://docs.google.com/document/d/e/2PACX-1vQLt7MnMrW1y2UGY1EYolDEjwuxoqoCerkIffGth4HXz2r_XVpI085-F-dn9oKnFtkxrgWD9M8MJ3HT/pub?embedded=true"></iframe>
-
+<body class="bg-gray-100 min-h-screen flex flex-col items-center justify-center">
+    <header class="text-center mb-8">
+        <h1 class="text-4xl font-bold text-blue-600">My Learning</h1>
+        <p class="text-gray-600 mt-2">Links to Learning Resources</p>
+    </header>
+    <main class="w-full max-w-md">
+        <ul class="space-y-4">
+            <li>
+                <a href="gcp.html" target="_blank" class="block w-full text-center py-3 bg-blue-500 text-white rounded-lg shadow-md hover:bg-blue-600">GCP Learning</a>
+            </li>
+            <li>
+                <a href="aws.html" target="_blank" class="block w-full text-center py-3 bg-green-500 text-white rounded-lg shadow-md hover:bg-green-600">AWS Learning</a>
+            </li>
+            <li>
+                <a href="devops.html" target="_blank" class="block w-full text-center py-3 bg-yellow-500 text-white rounded-lg shadow-md hover:bg-yellow-600">DevOps Learning</a>
+            </li>
+            <li>
+                <a href="networking.html" target="_blank" class="block w-full text-center py-3 bg-purple-500 text-white rounded-lg shadow-md hover:bg-purple-600">Network Engineer Learning</a>
+            </li>
+        </ul>
+    </main>
+    <footer class="mt-8 text-gray-500 text-sm">
+        &copy; 2025 GCP Learning. All rights reserved.
+    </footer>
 </body>
 </html>
